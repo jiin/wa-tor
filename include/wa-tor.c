@@ -43,7 +43,6 @@ void cell_manage( int x, int y ) {
     case SEA:
       break;
     default:
-    printf("Cattiveria pura: %d\n", matrix[x][y].type);
       die("Matrix bad format.");
       break;
   }
