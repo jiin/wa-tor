@@ -1,6 +1,6 @@
 // wa-tor.c
 
-#include "wa-tor.h"
+#include "../include/wa-tor.h"
 
 void die( char *msg ) {
   printf("%s\n", msg);

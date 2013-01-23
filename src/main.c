@@ -26,7 +26,7 @@
 #include <windows.h>
 #include <time.h>
 
-#include "./include/wa-tor.c"
+#include "wa-tor.c"
 
 int main( int argc, char **argv ) {
   int row, column, bytes_to_read;
